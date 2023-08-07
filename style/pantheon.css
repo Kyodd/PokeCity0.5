@@ -1,0 +1,118 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+    position: absolute;
+}
+
+.ball {
+
+    width: 100px;
+    margin-left: -1px;
+
+}
+
+.dex {
+    width: 100px;
+    margin-left: -5px;
+}
+
+.map {
+    width: 110px;
+    margin-left: -5px;
+}
+
+.panth {
+    width: 85px;
+    margin-left: 2px;
+    margin-bottom: 7px;
+}
+
+.pickprofil {
+    width: 100px;
+    margin-left: 12px;
+}
+
+.quizz {
+    width: 70px;
+    margin-left: 5px;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+.carap{
+    display: block;
+    margin-left: auto;
+    position: relative;
+    top: -140px;
+    width: 142px;
+}
+
+.view {
+    display: block;
+    margin: auto;
+    margin-top: -350px;
+}
+
+aside {
+    width: 100%;;
+    display: flex;
+    justify-content: center;
+}
+
+.navmap {
+    display: flex;
+}
+
+.panthtitle {
+    display: block;
+    margin-top: -100px;  
+}
+
+.jiralique {
+    width: 300px;
+}
+
+.equipe {
+    margin-left: 150px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.angelique {
+    display: flex;
+    flex-direction: column;
+}
+
+.benoix {
+    display: flex;
+    flex-direction: column;
+}
+
+.racanoix {
+    display: flex;
+    width: 450px;
+}
+
+.benoit {
+    margin-top: 120px;
+    width: 400px;
+}
+
+.equipe2 {
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.equipe3 {
+    margin-top: 350px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}

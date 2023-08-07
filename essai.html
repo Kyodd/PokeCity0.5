@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/template.css">
+    <link rel="stylesheet" href="../style/choicePKM.css">
+    <title>Pokedex</title>
+
+</head>
+
+<body id="body"> 
+    <header>
+        <a href="../index.html">
+            <img src="../img/pokecity.png" alt="Logo" class="logo"/>
+        </a>
+
+        <img src="../img/carapuce.png" alt="carapuce" class="carap">
+
+    </header>
+    <!-- Les trois lignes ci‑dessous sont un correctif pour que la sémantique
+          HTML5 fonctionne correctement avec les anciennes versions de
+          Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+
+    <nav>
+        <div class="pokeball">
+            <img src="../img/pokeball.png" 
+            alt="pokeball" 
+            class="ball"/>
+        </div>
+        <div class="pokedex">
+            <img src="../img/pokedexvrai.png"
+            alt="pokedex"
+            class="dex"/>
+        </div>
+
+        <div class="map">
+            <img src="../img/map.png"
+            alt="map"
+            class="map">
+        </div>
+        
+        <div class="quizz">
+            <img src="../img/logo_quizz.png"
+            alt="logoquizz" 
+            class="quizz">
+        </div>
+        
+    </nav>
+
+        <!-- Un formulaire de recherche est une autre façon de naviguer de
+            façon non‑linéaire dans un site. -->
+
+        <form>
+          <input type="search" name="q" placeholder="Rechercher">
+          <input type="submit" value="Lancer !">
+        </form>
+      </nav>
+
+    <!-- Ici nous mettons le contenu de la page -->
+    <section>
+
+      <!-- Il contient un article -->
+      <article>
+        <h2>Les passagers d'une luxueuse croisière bloqué
+        </h2>
+        <p>Les passagers d'une luxueuse croisière du Nouvel An autour de Johto et de Galar
+            ont été bloqués une semaine en pleine mer en raison d'une "excroissance marine" accrochée à la coque,
+             qui aurait pu nuire à l'écosystème marin.
+            
+            Selon le gouvernement de Poké City, des plongeurs ont dû enlever la "biofoul" - une accumulation de micro-organismes,
+            de plantes, d'algues ou de petits animaux - 
+            de la coque du Viking Orion, un navire de 930 places, 
+            pendant qu'il était ancré dans les eaux internationales.
+            
+            Le nettoyage était nécessaire pour protéger les eaux de Poké City des "organismes marins potentiellement dangereux",
+             a expliqué le ministère de la Pêche dans un communiqué transmis à l'AFP. 
+            
+            Poké City craint en effet l'introduction d'espèces invasives, que ce soit dans ses eaux ou sur son sol.</p>
+        </article>     
+    </section>
+      
+             <!-- Le contenu « à côté » peut aussi être intégré dans le contenu
+            principal -->
+      <aside>
+        <h2>En relation</h2>
+        <ul>
+          <li><a href="#">notre port et destination</a></li>
+          <li><a href="#">tour de poke city</a></li>
+          <li><a href="#">jeux olympyques de poke city</a></li>
+          <li><a href="#">virus pokérus</a></li>
+          <li><a href="#">decés de trois pokemon</a></li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <!-- Et voici notre pied de page utilisé sur toutes les pages du site -->
+    <footer>
+      <p>©Copyright 2050 par personne. Tous droits reversés.</p>
+    </footer>
+
+  </body>
+</html>

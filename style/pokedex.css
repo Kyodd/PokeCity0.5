@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 8%;   
+}
+
+.ball {
+
+    width: 100px;
+    margin-left: -1px;
+
+}
+
+.dex {
+    width: 100px;
+    margin-left: -5px;
+}
+
+.map {
+    width: 110px;
+    margin-left: -5px;
+}
+
+.quizz {
+    width: 70px;
+    margin-left: 5px;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+.carap{
+    display: block;
+    margin-left: auto;
+    position: relative;
+    top: -140px;
+    width: 142px;
+}
+
+.view {
+    display: block;
+    margin: auto;
+    margin-top: -350px;
+}

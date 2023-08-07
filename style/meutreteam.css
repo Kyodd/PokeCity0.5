@@ -1,0 +1,140 @@
+.logo {
+    display: block;
+    margin: auto;
+}
+.carap {
+    display: block;
+    margin-left: auto;
+    position: relative;
+    top: -140px;
+    width: 142px;
+}
+.ball {
+
+    width: 100px;
+    margin-left: -1px;
+
+}
+
+.dex {
+    width: 100px;
+    margin-left: -5px;
+}
+
+.map {
+    width: 110px;
+    margin-left: -5px;
+}
+
+.quizz {
+    width: 70px;
+    margin-left: 5px;
+}
+
+section {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1
+{
+  font-size: 90px;
+  text-shadow: -5px -5px #0c0, 1px 1px #060, -5px 0 4px #000;
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(64, 139, 64);
+   text-align:center;
+   display: flow-root;
+  } 
+
+main{
+  display: flex;
+}
+
+container {
+  position: relative;
+  width: 50%;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 150%;
+  height: 200%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+main{display: flex;}
+
+section {
+
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+}
+h1
+{
+  font-size: 80px;
+  text-shadow: -5px -5px rgb(204, 65, 0), 1px 1px #060, -5px 0 4px #000;
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(240, 137, 111);
+  padding:16px;
+  font-weight: bolder;
+  -moz-box-shadow: 2px 2px 6px #361a1a;  
+  -webkit-box-shadow: 2px 2px 6px #462d2d;  
+  box-shadow:2px 2px 6px #361c1c;  
+  text-align:center;
+  display:block;
+  margin:16px;
+} 
+
+.image {
+  display: block;
+   width: 400%;
+  height: 460%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ba3b00;
+  overflow: hidden;
+  width: 200%;
+  height: 300;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+.container:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  /* pour cacher un texte dans un image  */
+}
+.text {
+  color: white;
+  font-size: 32px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -webkit-transform: translate(-30%, -30%);
+  -ms-transform: translate(-30%, -30%);
+  transform: translate(-50%, -50%);
+   text-justify: center;
+}
+.container {
+  position: relative;
+  width: 50%;
+}

@@ -11,22 +11,25 @@ a {
     width: 142px;
 }
 
-.sidebar {
+nav {
     display: flex;
-    display: grid;
-
+    flex-direction: column;
+    width: 8%;
+    position: absolute;
+	margin-top: 300px;
 }
 
 .ball {
 
     width: 100px;
-    margin-left: -1px;
+    margin-left: 5px;
 
 }
 
 .dex {
     width: 100px;
     margin-left: -5px;
+    margin-top: 5px;
 }
 
 .map {
@@ -39,13 +42,10 @@ a {
     margin-left: 5px;
 }
 
-.pikachu {
-
-    width: 500px;
-    position: relative;
-    top: -500px;
-    left: 500px;
-
+.panth {
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 aside {
@@ -63,25 +63,12 @@ header{
 
 }
 
-nav {
-    display: flex;
-    flex-direction: column;
-    width: 8%;   
-}
-
 section {
 
     display: flex;
     align-items: center;
     width: 100%;
 
-}
-
-nav {
-
-    display: flex;
-    flex-direction: column;
-    width: 8%;
 }
 
 * {

@@ -8,13 +8,14 @@ nav {
 .ball {
 
     width: 100px;
-    margin-left: -1px;
+    margin-left: 5px;
 
 }
 
 .dex {
     width: 100px;
     margin-left: -5px;
+    margin-top: 5px;
 }
 
 .map {
@@ -22,10 +23,15 @@ nav {
     margin-left: -5px;
 }
 
+.quizz {
+    width: 70px;
+    margin-left: 5px;
+}
+
 .panth {
-    width: 85px;
-    margin-left: 2px;
-    margin-bottom: 7px;
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .pickprofil {

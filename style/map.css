@@ -12,13 +12,14 @@ nav {
 .ball {
 
     width: 100px;
-    margin-left: -1px;
+    margin-left: 5px;
 
 }
 
 .dex {
     width: 100px;
     margin-left: -5px;
+    margin-top: 5px;
 }
 
 .map {
@@ -31,8 +32,10 @@ nav {
     margin-left: 5px;
 }
 
-.pickprofil {
-    width: 100px;
+.panth {
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 header {

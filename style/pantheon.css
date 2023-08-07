@@ -49,7 +49,6 @@ nav {
     top: -140px;
     width: 142px;
 }
-
 .view {
     display: block;
     margin: auto;
@@ -70,49 +69,6 @@ aside {
     display: block;
     margin-top: -100px;  
 }
-
-.jiralique {
-    width: 300px;
-}
-
-.equipe {
-    margin-left: 150px ;
-    display: flex;
-    justify-content: space-between;
-}
-
-.angelique {
-    display: flex;
-    flex-direction: column;
-}
-
-.benoix {
-    display: flex;
-    flex-direction: column;
-}
-
-.racanoix {
-    display: flex;
-    width: 450px;
-}
-
-.benoit {
-    margin-top: 120px;
-    width: 400px;
-}
-
-.equipe2 {
-    margin-top: 50px;
-    margin-left: 150px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-}
-
-.equipe3 {
-    margin-top: 350px;
-    margin-right: 80px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
+.carousel{ 
+    margin-top: 12.5%;
 }

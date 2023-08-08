@@ -34,9 +34,10 @@ nav {
     margin-top: 5px;
 }
 
-.pickprofil {
-    width: 100px;
-    margin-left: 12px;
+.profil {
+	position: relative;
+	left: 1560px;
+    top: 180px;
 }
 
 .quizz {
@@ -48,13 +49,7 @@ nav {
     display: block;
     margin: auto;
 }
-.carap{
-    display: block;
-    margin-left: auto;
-    position: relative;
-    top: -140px;
-    width: 142px;
-}
+
 .view {
     display: block;
     margin: auto;

@@ -3,14 +3,6 @@ a {
     font-size: 60px;
 }
 
-.carap{
-    display: block;
-    margin-left: auto;
-    position: relative;
-    top: -140px;
-    width: 142px;
-}
-
 nav {
     display: flex;
     flex-direction: column;
@@ -56,11 +48,16 @@ aside {
 
 }
 
-
 header{
 
     text-align: center;
 
+}
+
+.profil {
+	position: relative;
+	left: 1560px;
+	top: -180px;
 }
 
 section {

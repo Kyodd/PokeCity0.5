@@ -1,3 +1,7 @@
+body {
+    transition: .5s;
+}
+
 nav {
     display: flex;
     flex-direction: column;
@@ -57,4 +61,51 @@ nav {
     position: relative;
     display: flex;
     margin-left: 600px;
+}
+header {
+    text-align: center;
+}
+
+.carap{
+    display: block;
+    margin-left: auto;
+    position: relative;
+    top: -140px;
+    width: 142px;
+    height: 8%;
+}
+
+.img {
+    position: relative;
+    width: 50%;
+    padding:10px;
+    vertical-align : middle;
+} 
+
+.show{
+    display: block;
+    opacity: 1;
+}
+
+.clickevent {
+ position: relative;
+  width: 50%;
+  padding:10px;
+  vertical-align : middle;
+}
+
+aside {
+    width: 100%;;
+    display: flex;
+    justify-content: center;
+}
+
+.navmap {
+    display: flex;
+}
+
+.cv {
+    display: block;
+    width: 100%;
+    margin-top: -100px;  
 }

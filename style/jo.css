@@ -46,6 +46,12 @@ margin-left: 5px;
 margin-top: 5px;
 }
 
+.profil {
+	position: relative;
+  margin-top: 200px;
+  margin-left: 1540px;
+}
+
 .container{
 position: relative;
 width: 100%;

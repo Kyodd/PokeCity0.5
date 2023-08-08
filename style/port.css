@@ -1,0 +1,115 @@
+body {
+    transition: .5s;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+    position: absolute;
+	margin-top: 300px;
+}
+
+.ball {
+
+    width: 100px;
+    margin-left: 5px;
+
+}
+
+.dex {
+    width: 100px;
+    margin-left: -5px;
+    margin-top: 5px;
+}
+
+.map {
+    width: 110px;
+    margin-left: -5px;
+}
+
+.quizz {
+    width: 70px;
+    margin-left: 5px;
+}
+
+.panth {
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.profil {
+	position: relative;
+	left: 1560px;
+    top: -300px;
+}
+
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.view {
+    display: block;
+    margin: auto;
+    margin-top: -350px;
+}
+
+.bikeshop {
+    position: relative;
+    display: flex;
+    margin-left: 600px;
+}
+header {
+    text-align: center;
+}
+
+.carap{
+    display: block;
+    margin-left: auto;
+    position: relative;
+    top: -140px;
+    width: 142px;
+    height: 8%;
+}
+
+.img {
+    position: relative;
+    width: 50%;
+    padding:10px;
+    vertical-align : middle;
+} 
+
+.show{
+    display: block;
+    opacity: 1;
+}
+
+.clickevent {
+ position: relative;
+  width: 50%;
+  padding:10px;
+  vertical-align : middle;
+}
+
+aside {
+    width: 100%;;
+    display: flex;
+    justify-content: center;
+}
+
+.navmap {
+    display: flex;
+}
+
+.cv {
+    display: block;
+    width: 100%;
+    margin-top: -100px;  
+}
+
+#cards {
+    margin-top: 50px;
+}

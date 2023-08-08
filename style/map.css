@@ -12,13 +12,14 @@ nav {
 .ball {
 
     width: 100px;
-    margin-left: -1px;
+    margin-left: 5px;
 
 }
 
 .dex {
     width: 100px;
     margin-left: -5px;
+    margin-top: 5px;
 }
 
 .map {
@@ -31,22 +32,22 @@ nav {
     margin-left: 5px;
 }
 
-.pickprofil {
-    width: 100px;
+.panth {
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 header {
     text-align: center;
 }
 
-.carap{
-    display: block;
-    margin-left: auto;
-    position: relative;
-    top: -140px;
-    width: 142px;
-    height: 8%;
+.profil {
+	position: relative;
+	left: 1560px;
+  top: 180px;
 }
+
 
 .img {
     display: none;
@@ -59,7 +60,9 @@ header {
 
 .clickevent {
     display: block;
+    position: relative;
     justify-content: center;
+    right: 150px;
 }
 
 aside {
@@ -68,14 +71,37 @@ aside {
     justify-content: center;
 }
 
+.centrepokemon {
+    width: 20%;
+}
+
+.store {
+    width: 20%;
+}
+
 .navmap {
     display: flex;
 }
 
+.places {
+    margin-left: 400px;
+}
+
+.bikeshop {
+    width: 286px;
+}
+
+.gym {
+    width: 286px;
+}
+
+.port{
+    width: 286px;
+}
+
 .cv {
     display: block;
-    width: 100%;
-    margin-top: -100px;  
+    width: 100%; 
 }
 
 footer{

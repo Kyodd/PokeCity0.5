@@ -8,13 +8,14 @@ nav {
 .ball {
 
     width: 100px;
-    margin-left: -1px;
+    margin-left: 5px;
 
 }
 
 .dex {
     width: 100px;
     margin-left: -5px;
+    margin-top: 5px;
 }
 
 .map {
@@ -22,15 +23,21 @@ nav {
     margin-left: -5px;
 }
 
-.panth {
-    width: 85px;
-    margin-left: 2px;
-    margin-bottom: 7px;
+.quizz {
+    width: 70px;
+    margin-left: 5px;
 }
 
-.pickprofil {
-    width: 100px;
-    margin-left: 12px;
+.panth {
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.profil {
+	position: relative;
+	left: 1560px;
+    top: 180px;
 }
 
 .quizz {
@@ -41,13 +48,6 @@ nav {
 .logo {
     display: block;
     margin: auto;
-}
-.carap{
-    display: block;
-    margin-left: auto;
-    position: relative;
-    top: -140px;
-    width: 142px;
 }
 
 .view {
@@ -70,49 +70,6 @@ aside {
     display: block;
     margin-top: -100px;  
 }
-
-.jiralique {
-    width: 300px;
-}
-
-.equipe {
-    margin-left: 150px ;
-    display: flex;
-    justify-content: space-between;
-}
-
-.angelique {
-    display: flex;
-    flex-direction: column;
-}
-
-.benoix {
-    display: flex;
-    flex-direction: column;
-}
-
-.racanoix {
-    display: flex;
-    width: 450px;
-}
-
-.benoit {
-    margin-top: 120px;
-    width: 400px;
-}
-
-.equipe2 {
-    margin-top: 50px;
-    margin-left: 150px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-}
-
-.equipe3 {
-    margin-top: 350px;
-    margin-right: 80px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
+.carousel{ 
+    margin-top: 16%;
 }

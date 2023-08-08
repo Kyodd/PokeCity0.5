@@ -1,160 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="../style/choicePKM.css">
     <link rel="stylesheet" href="../style/pantheon.css">
     <title>Document</title>
 </head>
-<body>
-    <!DOCTYPE html>
-<html lang="fr">
-<head>
-
-    <meta charset="UTF-8">
-   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/template.css">
-    <title>Template</title>
-
-</head>
 
 <body id="body"> 
     <header>
-        <a href="../html/home.html">
+      <a href="./magicarpe.html">
             <img src="../img/pokecity.png" alt="Logo" class="logo"/>
         </a>
-
-        <a href="../html/profil.html">
-            <img src="../img/carapuce.png" alt="carapuce" class="carap">
+        <a href="./profil.html">
+            
         </a>
 
     </header>
 
     <div class="navpanth">
-    <nav>
-        <div class="pokeball">
-            <a href="../index.html">
-            <img src="../img/pokeball.png" alt="pokeball" class="ball"/>
-            </a>
-        </div>
+        <nav class="flex-column">
+            <div class="pokeball" id="ball">
+                <a href="../index.html">
+                <img src="../img/pokeball.png" alt="pokeball" class="ball" id="ball"/>
+                </a>
+            </div>
+    
+            <div class="pokedex" id="dex">
+                <a href="./pokedex.html">
+                <img src="../img/pokedexvrai.png" alt="pokedex" class="dex"/>
+                </a>
+            </div>
+    
+            <div class="map" id="map">
+                <a href="./map.html">
+                <img src="../img/map.png" alt="map" class="map" id="map">
+                </a>
+            </div>
+            
+            <div class="quizz" id="quizz">
+                <a href="./quizz.html">
+                <img src="../img/logo_quizz.png" alt="logoquizz" class="quizz" id="quizz">
+                </a>
+            </div>
+    
+            <div class="panth">
+                <img src="../img/panthéonvrai.png" alt="Icone panthéon" class="panth" id="panth">
+            </div>
+            
+            
+        </nav>
 
-        <div class="pokedex">
-            <a href="../html/pokedex.html">
-            <img src="../img/pokedexvrai.png" alt="pokedex" class="dex"/>
-            </a>
-        </div>
-
-        <div class="map">
-            <a href="../html/map.html">
-            <img src="../img/map.png" alt="map" class="map">
-            </a>
-        </div>
-
-        <div class="profil"><a href="../html/profil.html">
-            <img src="../img/pikachu.png" alt="pickachu" class="pickprofil">
-        </a>
-        </div>
-
-        <div class="panth">
-            <img src="../img/panthéonvrai.png" alt="Icone panthéon" class="panth">
-        </div>
-        
-        <div class="quizz">
-            <img src="../img/logo_quizz.png" alt="logoquizz" class="quizz">
-        </div>
-        
-    </nav>
+        <a href="./profil.html">
+          <img src="../img/logoProfil.png" alt="Profil" class="profil">
+      </a>
 
         <aside>
             <img src="../img/panthéon titre.png" alt="Titre panthéon" class="panthtitle">
         </aside>
-
-
-    <div class="equipe">
-        <div class="angelique">
-            <img src="../img/angelique.png" alt="jiralique" class="jiralique">
-            <img src="../img/angéliquenom.png" alt="nom ange" class="nomA">
-        </div>
-
-        <div class="benoix">
-            <img src="../img/benoit.png" alt="racanoix" class="racanoix">
-            <img src="../img/Benoît.png" alt="benoit" class="benoit">
-        </div>
-
-        <div class="daphnee">
-            <img src="../img/evoli.png" alt="daphnevoli" class="evoli2">
-            <img src="../img/Daphnée.png" alt="Daphnée" class="daphnee">
-        </div>
-
-        <div class="emrys">
-            <img src="../img/emrys.png" alt="noivrys" class="connaitpas">
-            <img src="../img/NEmrys.png" alt="emrys" class="emrys">
-        </div>
-
-        <div class="fabrice">
-            <img src="../img/fabrice.png" alt="jesuisletank" class="fabricetank">
-            <img src="../img/NFabrice.png" alt="fabrice" class="fabrice">
-        </div>
-
-        <div class="florent">
-            <img src="../img/florent.png" alt="ronflorent" class="ronflex">
-            <img src="../img/NFlorent.png" alt="florent" class="florent">
-        </div>
     </div>
 
-    <div class="equipe2">
-        <div class="hichem">
-            <img src="../img/bulbizarre.png" alt="bulbhichem" class="bulbo">
-            <img src="../img/Hichemm.png" alt="hichem" class="hichem">
+    <div id="carouselExampleInterval" class="carousel slide position-absolute top-50 start-50 translate-middle" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../img/teamPoke.png" class="d-block w-100" alt="teamPoke">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/teamRacoon.png" class="d-block w-100" alt="teamRacoon">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/teamPigeons.png" class="d-block w-100" alt="teamPigeons">
+          </div>
+           <div class="carousel-item">
+            <img src="../img/teamVitraux.png" class="d-block w-100" alt="teamVitraux">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/nosFormateurs.png" class="d-block w-100" alt="teamForma">
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
 
-        <div class="laura">
-            <img src="../img/" alt="lauraphalie" class="nymphalie">
-            <img src="../img/NLaura.png" alt="laura" class="laura">
-        </div>
-
-        <div class="marion">
-            <img src="../img/marion.png" alt="marionita" class="rainbowdash">
-            <img src="../img/NMarion.png" alt="marion" class="marion">
-        </div>
-
-        <div class="mika">
-            <img src="../img/Mika.png" alt="mikacha" class="sacha">
-            <img src="../img/NMickael.png" alt="mikka" class="mika">
-        </div>
-
-        <div class="sokhna">
-            <img src="" alt="">
-            <img src="../img/Sokhna.png" alt="sokhna" class="sokhna">
-        </div>
-
-        <div class="equipe3">
-
-        <div class="steph">
-            <img src="../img/stephane.png" alt="carchaphane" class="garchomp">
-            <img src="../img/Nstéphane.png" alt="steph" class="nsteph">
-        </div>
-        
-        <div class="ulysse">
-            <img src="../img/Ulysse.png" alt="ulysse" class="ulysse">
-        </div>
-
-        <div class="val">
-            <img src="../img/val.png" alt="valtalijul" class="noc">
-            <img src="../img/Nvalentin.png" alt="val" class="val">
-        </div>
-    </div>
-    </div>
-    
-
-
-    </div>
-
+      </script>
     <script src="../js/main.js"> </script>
 </body>
 
-</html>
-</body>
+
+
 </html>

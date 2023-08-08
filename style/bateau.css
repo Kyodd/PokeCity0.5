@@ -2,13 +2,6 @@
     display: block;
     margin: auto;
 }
-.carap {
-    display: block;
-    margin-left: auto;
-    position: relative;
-    top: -140px;
-    width: 142px;
-}
 
 nav {
   display: flex;
@@ -44,6 +37,12 @@ nav {
   width: 80px;
   margin-left: 5px;
   margin-top: 5px;
+}
+
+.profil {
+	position: relative;
+	left: 1560px;
+  top: 180px;
 }
 
 section {

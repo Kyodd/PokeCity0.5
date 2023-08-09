@@ -113,3 +113,83 @@ aside {
 #cards {
     margin-top: 50px;
 }
+
+.infosjhoto {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    left: 680px;
+    top: 730px;
+    width: 30%;
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    border: 40px;
+    padding: 5px;
+    border: solid black;
+}
+
+.jhoto{
+    margin-left: 350px;
+}
+#jhoto {
+    margin-left: 450px;
+}
+
+.hoennmap {
+    margin-left: 350px;
+}
+
+.hoenn {
+    margin-top: 340px;
+}
+
+.hoenn1 {
+    margin-left: 800px;
+}
+
+.hoennmap {
+    margin-left: 690px;
+}
+
+.infos1 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    left: 660px;
+    top: 1520px;
+    width: 30%;
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    border: 40px;
+    padding: 5px;
+    border: solid black;
+}
+
+.sinnoh{
+    margin-top: 270px;
+}
+
+.sinnoh1 {
+    margin-left: 800px;
+}
+
+.sinnohmap {
+    margin-left: 560px;
+}
+
+.sininfo{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    left: 500px;
+    top: 2460px;
+    width: 50%;
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    border: 40px;
+    padding: 5px;
+    border: solid black;
+}

@@ -115,3 +115,23 @@ left: 40%;
 transform: translate(-50%, -50%);
 text-justify: center;
 }
+
+
+.gyminfo {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  left: 540px;
+  top: 500px;
+  width: 40%;
+  backdrop-filter: blur(50px);
+  border-radius: 20px;
+  border: 40px;
+  padding: 5px;
+  border: solid black;
+}
+
+.gym {
+  margin-left: 620px;
+}

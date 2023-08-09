@@ -51,3 +51,21 @@ nav {
     margin: auto;
     margin-top: -350px;
 }
+
+.infosstore {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    left: 680px;
+    width: 30%;
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    border: 40px;
+    padding: 5px;
+    border: solid black;
+}
+
+.store {
+    margin-left: 540px;
+}

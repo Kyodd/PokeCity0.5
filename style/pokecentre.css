@@ -113,3 +113,25 @@ aside {
 #cards {
     margin-top: 50px;
 }
+
+#infospokecentre {
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    left: 540px;
+    top: 500px;
+    width: 40%;
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    border: 40px;
+    padding: 5px;
+    border: solid black;
+}
+
+.centre1 {
+    width: 60%;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 40px;
+}

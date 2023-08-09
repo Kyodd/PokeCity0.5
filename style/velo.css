@@ -62,17 +62,9 @@ nav {
     display: flex;
     margin-left: 600px;
 }
+
 header {
     text-align: center;
-}
-
-.carap{
-    display: block;
-    margin-left: auto;
-    position: relative;
-    top: -140px;
-    width: 142px;
-    height: 8%;
 }
 
 .img {

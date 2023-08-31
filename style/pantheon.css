@@ -69,7 +69,9 @@ aside {
 .panthtitle {
     display: block;
     margin-top: -100px;  
+    position: relative;
+    top: 100px;
 }
 .carousel{ 
-    margin-top: 16%;
+    margin-top: 10%;
 }
